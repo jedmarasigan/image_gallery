@@ -1,0 +1,110 @@
+body{
+    background-color: #f3f7fa !important;
+}
+
+#bio_container{
+    height: 650px;
+    width: 610px;
+    border: 1px solid #00cc99;
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+#profile_pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+#name_container{
+    margin-top: 20px;
+}
+#user_name{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+#year_container{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border-bottom: 1px solid grey;
+    height: 60px;
+    width: 400px;
+}
+
+#year_label{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+}
+
+#year{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+#country_container{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border-bottom: 1px solid grey;
+    height: 60px;
+    width: 400px;
+}
+
+#country_label{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+#country{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#description_container{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border-bottom: 1px solid grey;
+    height: 60px;
+    width: 400px;
+}
+
+#description_label{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+#description{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+#button_wrapper{
+    text-align: center;
+}
+
+#edit_button{
+    margin-top: 25px;
+    height: 35px;
+    width: 130px;
+    background-color: #00cc99;
+    color: white;
+}
+

@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+#wrapper {
+    top: 0;
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+.nav_bar_container .logo{
+    float: left;
+}
+.nav_bar_container .logo:hover{
+    text-decoration: none;
+    color: #00cc99;
+}
+.nav_bar_container .nav_bar .logo a{
+    font-size: 30px;
+    color: #00cc99;
+    text-decoration: none;
+}
+.nav_bar_container .nav_bar .logo a h1{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.nav_bar_container{
+    float: right;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+}
+.nav_bar_container .nav_bar{
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+    font-size: 20px;
+    width: 100%;
+    overflow: hidden;
+    text-align: right;
+    display: block;
+
+    transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -o-transition: max-height 1s;
+}
+
+.nav_bar_container .nav_bar .nav_bar_item {
+    margin-top: 10px;
+    padding: 10px;
+    color: #00cc99;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.nav_bar_container .nav_bar .nav_bar_item:hover{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.nav_bar_container .nav_bar .active{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.handle{
+    width: 100%;
+    background: white;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: #00cc99;
+    display: none;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: whitesmoke;
+}
+
+@media screen and (max-width: 1017px) {
+    .nav_bar_container{
+        z-index: 99999;
+    }
+    .nav_bar_container .nav_bar{
+        max-height: 0;
+        padding: 0;
+        float: left;
+    }
+    .nav_bar_container .showing{
+        max-height: 50em;
+    }
+    .nav_bar_container .nav_bar .logo a h1{
+        margin-left: 30px;
+
+    }
+    .nav_bar_container .nav_bar .nav_bar_item{
+        display: block;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 10px 10px 45px;
+        text-align: left;
+        border-top: 1px solid;
+        border-left: none;
+        border-color: whitesmoke;
+        margin-top: 0;
+    }
+
+    .nav_bar_container .nav_bar_item:hover{
+        background-color: lavender;
+    }
+    .nav_bar_container .handle{
+        display: inline-block;
+        padding: 10px 10px 10px 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nav_bar_container .handle a.icon{
+        float: right;
+        color: #00cc99;
+    }
+    .nav_bar_container .handle a.icon:hover{
+        text-decoration: none;
+    }
+}

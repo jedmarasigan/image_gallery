@@ -1,0 +1,37 @@
+body{
+    background-color: #f3f7fa !important;
+    font-family: "Montserrat", sans-serif
+}
+
+.galleryInfo_container{
+    border-style: solid;
+    border-color: #00cc99;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.galleryInfo_container #description{
+    width: 400px;
+}
+
+.galleryInfo_container .edit_button{
+    float: right;
+}
+
+.image_list_container{
+    border-style: solid;
+    border-color: #00cc99;
+    position: relative;
+    width: 90%;
+    height: 506px;
+    float: left;
+    top: 40px;
+    left: 50px;
+    background-color: white;
+    margin-bottom: 100px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,125 @@
+body {
+    height: 100%;
+    background-color: #f3f7fa !important;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.col-sm-12{
+    padding: 2px 0px 10px 0px;
+}
+
+.parentContainer{
+    display: table;
+    overflow: hidden;
+    position: relative;
+    margin: 100px auto;
+    background-color: white;
+    width: 500px;
+    padding:15px;
+    border: 1px solid #00cc99;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    /*border-radius: 8px;*/
+}
+.new_event{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding: 20px 8px 8px 8px;
+    color: #00cc99;
+    font-weight: 100;
+}
+
+#upload_container{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.submit{
+    text-align: center;
+}
+.next_button{
+    font-size: 25px;
+    width: 20%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: white;
+    background-color: #009973;
+    text-align: center;
+    padding: 10px 16px;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+input[type=text], select{
+    width: 400px;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.event-label {
+    font-weight: bold;
+    color: #686b6f;
+}
+input[type=number], select{
+    width: 100px;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing:border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input[type=submit]{
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+@media only screen and (max-width: 543px)
+{
+    .parentContainer{
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 100px;
+        padding: 8px;
+    }
+
+    .new_event{
+        font-size: 22px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        text-align: center;
+        padding: 0;
+    }
+
+    .submit{
+        text-align: center;
+        width: 300px;
+    }
+
+    .create_button{
+        font-size: 20px;
+        width: 25%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        color: white;
+        background-color: #4990E2;
+        border: none;
+        padding: 9px 15px;
+        cursor: pointer;
+        min-width: 200px;
+    }
+}
